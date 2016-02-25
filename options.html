@@ -1,17 +1,28 @@
 <!DOCTYPE html>
 <html>
-<head><title>My Test Extension Options</title></head>
+<head><title>Markdown Slide Presentation Options</title></head>
 <body>
 
-slideshow display ratio:
+Slideshow display ratio:
 <select id="Ratio">
  <option value="4:3">4:3</option>
  <option value="16:9">16:9</option>
 </select>
 
+Disable 
 <label>
-  <input type="checkbox" id="like">
-  I like colors.
+  <input type="checkbox" id="scroll">
+  Disable navigation using scrolling.
+</label>
+
+<label>
+  <input type="checkbox" id="touch">
+  Disable navigation using touch.
+</label>
+
+<label>
+  <input type="checkbox" id="click">
+  Disable navigation using click.
 </label>
 
 <div id="status"></div>
