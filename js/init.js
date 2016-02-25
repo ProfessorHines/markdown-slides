@@ -1,4 +1,4 @@
-var slideshow = remark.create();
+var slideshow = remark.create({ratio: '16:9'});
 
 // Make links open in new window
 [].slice.apply(document.querySelectorAll('a'))
